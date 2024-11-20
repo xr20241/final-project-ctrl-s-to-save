@@ -5,6 +5,7 @@ using UnityEngine;
 public class DoorEffect : MonoBehaviour
 {
     public Animator doorAnimator;
+    public Animator blueAnimator;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,16 @@ public class DoorEffect : MonoBehaviour
         {
             doorAnimator.SetBool("Open", false);
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            //blueAnimator.SetBool("Blue", true);
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            //blueAnimator.SetBool("Blue", false);
+        }
+        
         
     }
 }
