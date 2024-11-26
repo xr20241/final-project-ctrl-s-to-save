@@ -5372,6 +5372,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1503423524}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &383498484
 GameObject:
   m_ObjectHideFlags: 0
@@ -5453,6 +5454,8 @@ MonoBehaviour:
   _offset: {x: -0.1091, y: -0.0222, z: -0.043}
   _rotation: {x: 0.29883647, y: 0.640856, z: -0.6408568, w: -0.298836}
   _mirrorOffsetsForLeftHand: 1
+=======
+>>>>>>> 135a879 ((AR): change texture for lamp1)
 --- !u!1 &394389902
 GameObject:
   m_ObjectHideFlags: 0
@@ -27178,6 +27181,7 @@ SceneRoots:
   - {fileID: 216372522}
   - {fileID: 978764650}
   - {fileID: 655552110}
+<<<<<<< HEAD
   - {fileID: 606689827}
   - {fileID: 984345701}
   - {fileID: 617357598}
@@ -27186,3 +27190,5 @@ SceneRoots:
   - {fileID: 799733555}
   - {fileID: 1661903097}
   - {fileID: 1399654831}
+=======
+>>>>>>> 135a879 ((AR): change texture for lamp1)
