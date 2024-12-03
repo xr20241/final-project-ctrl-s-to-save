@@ -439,6 +439,9 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &45447845
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,8 +544,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45447845}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &46642900
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +874,9 @@ Transform:
   m_Father: {fileID: 126792869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &60593999
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,8 +979,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60593999}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &61115404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,6 +1664,9 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &118916290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,8 +1794,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118916290}
   m_Mesh: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &122699923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,6 +1831,9 @@ Transform:
   m_Father: {fileID: 1238664246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &126508707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,8 +1880,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 1423970762}
   _offset: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &126792868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2014,9 @@ Transform:
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &135349546
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,8 +2128,11 @@ MonoBehaviour:
   _gameObjects: []
   _monoBehaviours:
   - {fileID: 135349548}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &136309193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,6 +2410,9 @@ GameObject:
   m_PrefabInstance: {fileID: 1046573479}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &161526458
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,8 +2470,11 @@ MonoBehaviour:
     _minCutoff: 0.6
     _beta: 6
     _dCutoff: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &166112324
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,10 +3081,14 @@ PrefabInstance:
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.size
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9
 =======
       value: 2
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+      value: 9
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -3060,6 +3100,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -3088,8 +3131,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 655552109}
@@ -3099,6 +3145,9 @@ PrefabInstance:
       objectReference: {fileID: 940311703}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 606689826}
@@ -3127,8 +3176,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1399654830}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -3138,6 +3190,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -3166,8 +3221,11 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: StartSpawn
       objectReference: {fileID: 0}
@@ -3177,6 +3235,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: StartSpawn
       objectReference: {fileID: 0}
@@ -3205,8 +3266,11 @@ PrefabInstance:
       value: StartSpawn
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FindSpawnPositions, meta.xr.mrutilitykit
       objectReference: {fileID: 0}
@@ -3216,6 +3280,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: FindSpawnPositions, meta.xr.mrutilitykit
       objectReference: {fileID: 0}
@@ -3244,8 +3311,11 @@ PrefabInstance:
       value: FindSpawnPositions, meta.xr.mrutilitykit
       objectReference: {fileID: 0}
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
@@ -3254,6 +3324,9 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - target: {fileID: 3613868102660323786, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
@@ -3282,8 +3355,11 @@ PrefabInstance:
       propertyPath: <SceneLoadedEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[8].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - target: {fileID: 8047981335285221976, guid: c2e00db6d2dfa42ac8d821db8d493a44, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3625,6 +3701,9 @@ Transform:
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &244893307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,8 +3831,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244893307}
   m_Mesh: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &253946847
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,6 +4481,9 @@ Transform:
   m_Father: {fileID: 92932593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &307011637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,8 +4540,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &307532343
 GameObject:
   m_ObjectHideFlags: 0
@@ -5456,6 +5544,9 @@ Transform:
   m_Father: {fileID: 2136177881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &394226137
 GameObject:
   m_ObjectHideFlags: 0
@@ -5504,10 +5595,13 @@ MonoBehaviour:
   _offset: {x: -0.1091, y: -0.0222, z: -0.043}
   _rotation: {x: 0.29883647, y: 0.640856, z: -0.6408568, w: -0.298836}
   _mirrorOffsetsForLeftHand: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 135a879 ((AR): change texture for lamp1)
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &394389902
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,6 +6422,9 @@ Transform:
   m_Father: {fileID: 1472032498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &502023726
 GameObject:
   m_ObjectHideFlags: 0
@@ -6376,8 +6473,11 @@ MonoBehaviour:
   _maxLength: 5
   _radiusStart: 0.03
   _apertureDegrees: 20
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &510417083
 GameObject:
   m_ObjectHideFlags: 0
@@ -6570,9 +6670,13 @@ Transform:
   m_Children:
   - {fileID: 1105353439}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 283217831}
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+  - {fileID: 283217831}
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
   m_Father: {fileID: 1981633968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &525900521
@@ -7118,6 +7222,9 @@ Transform:
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &550867885
 GameObject:
   m_ObjectHideFlags: 0
@@ -7154,8 +7261,11 @@ Transform:
   - {fileID: 244893308}
   m_Father: {fileID: 1487856573}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &551444949
 GameObject:
   m_ObjectHideFlags: 0
@@ -8774,6 +8884,9 @@ Transform:
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &651700020
 GameObject:
   m_ObjectHideFlags: 0
@@ -8822,8 +8935,11 @@ MonoBehaviour:
   _offset: {x: -0.1, y: -0.035, z: 0}
   _rotation: {x: 0.105225, y: -0.6678412, z: 0.013933297, w: 0.7366965}
   _mirrorOffsetsForLeftHand: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &651998566
 GameObject:
   m_ObjectHideFlags: 0
@@ -10698,9 +10814,68 @@ Transform:
   m_Father: {fileID: 666727053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &799733553
 GameObject:
 =======
+=======
+--- !u!1 &799733553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 799733555}
+  - component: {fileID: 799733554}
+  m_Layer: 0
+  m_Name: Spawn_Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &799733554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799733553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnOnStart: 0
+  SpawnObject: {fileID: 1170805918453704471, guid: 95f9def6c29d0214785c7382506fff11, type: 3}
+  SpawnAmount: 4
+  MaxIterations: 1000
+  SpawnLocations: 3
+  Labels: 1
+  CheckOverlaps: 1
+  OverrideBounds: -1
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  SurfaceClearanceDistance: 0.1
+--- !u!4 &799733555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799733553}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &801297530
 GameObject:
   m_ObjectHideFlags: 0
@@ -11486,6 +11661,9 @@ Transform:
   m_Father: {fileID: 1234130899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &854807835
 GameObject:
   m_ObjectHideFlags: 0
@@ -11586,8 +11764,11 @@ Transform:
   - {fileID: 118916291}
   m_Father: {fileID: 283217831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &861961499
 GameObject:
   m_ObjectHideFlags: 0
@@ -12205,10 +12386,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnOnStart: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   SpawnObject: {fileID: 5172285777846679771, guid: 710cfd74cd5ea944f8867bed4c776136, type: 3}
 =======
   SpawnObject: {fileID: 666379446620527130, guid: 8c070ac7689590e43954062c7a7039af, type: 3}
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+  SpawnObject: {fileID: 5172285777846679771, guid: 710cfd74cd5ea944f8867bed4c776136, type: 3}
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
   SpawnAmount: 1
   MaxIterations: 1000
   SpawnLocations: 3
@@ -12892,6 +13077,9 @@ Transform:
   m_Father: {fileID: 766314608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &982832702
 GameObject:
   m_ObjectHideFlags: 0
@@ -13107,8 +13295,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &985463639
 GameObject:
   m_ObjectHideFlags: 0
@@ -13631,6 +13822,9 @@ Transform:
   m_Father: {fileID: 841578366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1022905235
 GameObject:
   m_ObjectHideFlags: 0
@@ -13679,8 +13873,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1423970760}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1029326750
 GameObject:
   m_ObjectHideFlags: 0
@@ -13984,22 +14181,32 @@ PrefabInstance:
     - target: {fileID: 636905562588498309, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _interactors.Array.size
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2
 =======
       value: 1
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+      value: 2
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       objectReference: {fileID: 0}
     - target: {fileID: 636905562588498309, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _interactors.Array.data[0]
       value: 
       objectReference: {fileID: 577847799}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - target: {fileID: 636905562588498309, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _interactors.Array.data[1]
       value: 
       objectReference: {fileID: 1423970761}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - target: {fileID: 905404198696409546, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _cameraRigRef
       value: 
@@ -14015,22 +14222,32 @@ PrefabInstance:
     - target: {fileID: 4463783186525425583, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _interactors.Array.size
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2
 =======
       value: 1
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+      value: 2
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
       objectReference: {fileID: 0}
     - target: {fileID: 4463783186525425583, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _interactors.Array.data[0]
       value: 
       objectReference: {fileID: 1878506435}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - target: {fileID: 4463783186525425583, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _interactors.Array.data[1]
       value: 
       objectReference: {fileID: 135349548}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - target: {fileID: 7698479342617112532, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       propertyPath: _cameraRigRef
       value: 
@@ -14094,11 +14311,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 577847798}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 83685398960850492, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1423970760}
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+    - targetCorrespondingSourceObject: {fileID: 83685398960850492, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423970760}
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     - targetCorrespondingSourceObject: {fileID: 5602775319806219822, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2025898820}
@@ -14106,11 +14329,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1878506434}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 646549660451555536, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 135349547}
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+    - targetCorrespondingSourceObject: {fileID: 646549660451555536, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 135349547}
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2698047492333244337, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
       insertIndex: -1
@@ -14636,6 +14865,9 @@ MonoBehaviour:
   _rotationOffset: {x: 0, y: 0, z: 0, w: 1}
   _mirrorOffsetsForLeftHand: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1099827712
 GameObject:
   m_ObjectHideFlags: 0
@@ -14684,8 +14916,11 @@ MonoBehaviour:
   _offset: {x: -0.1, y: -0.035, z: 0}
   _rotation: {x: 0.105225, y: -0.6678412, z: 0.013933297, w: 0.7366965}
   _mirrorOffsetsForLeftHand: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1103105209
 GameObject:
   m_ObjectHideFlags: 0
@@ -16581,6 +16816,9 @@ Transform:
   m_Father: {fileID: 801297531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1309179475
 GameObject:
   m_ObjectHideFlags: 0
@@ -16627,8 +16865,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _handGrabState: {fileID: 1487856576}
   _syntheticHand: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1309503837
 GameObject:
   m_ObjectHideFlags: 0
@@ -17068,6 +17309,9 @@ Transform:
   m_Father: {fileID: 61115405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1327341178
 GameObject:
   m_ObjectHideFlags: 0
@@ -17227,8 +17471,11 @@ MonoBehaviour:
   _numLinePoints: 20
   _targetlessLength: 0.5
   _tubeRenderer: {fileID: 1327341182}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1333461006
 GameObject:
   m_ObjectHideFlags: 0
@@ -18259,6 +18506,9 @@ Transform:
   m_Father: {fileID: 2036823597}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1423970759
 GameObject:
   m_ObjectHideFlags: 0
@@ -18416,8 +18666,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _handGrabState: {fileID: 283217834}
   _syntheticHand: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1427505122
 GameObject:
   m_ObjectHideFlags: 0
@@ -18513,6 +18766,9 @@ Transform:
   m_Father: {fileID: 1198302007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1433306755
 GameObject:
   m_ObjectHideFlags: 0
@@ -18563,8 +18819,11 @@ MonoBehaviour:
   _localPositionOffset: {x: 0, y: 0, z: 0}
   _rotationOffset: {x: 0, y: 0, z: 0, w: 1}
   _mirrorOffsetsForLeftHand: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1434436292
 GameObject:
   m_ObjectHideFlags: 0
@@ -18815,6 +19074,9 @@ Transform:
   m_Father: {fileID: 1113486553}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1467247753
 GameObject:
   m_ObjectHideFlags: 0
@@ -18901,8 +19163,11 @@ MonoBehaviour:
   _offset: {x: -0.11, y: -0.075, z: -0.02}
   _rotation: {x: 0.105225, y: -0.6678412, z: 0.013933297, w: 0.7366965}
   _mirrorOffsetsForLeftHand: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1472032497
 GameObject:
   m_ObjectHideFlags: 0
@@ -19134,6 +19399,9 @@ Transform:
   m_Father: {fileID: 445399755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1487856572
 GameObject:
   m_ObjectHideFlags: 0
@@ -19268,8 +19536,11 @@ MonoBehaviour:
   _gameObjects: []
   _monoBehaviours:
   - {fileID: 1487856576}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1488872886
 GameObject:
   m_ObjectHideFlags: 0
@@ -19425,6 +19696,9 @@ Transform:
   m_Father: {fileID: 236941489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1498925681
 GameObject:
   m_ObjectHideFlags: 0
@@ -19511,8 +19785,11 @@ MonoBehaviour:
   _offset: {x: -0.11, y: -0.075, z: -0.02}
   _rotation: {x: 0.105225, y: -0.6678412, z: 0.013933297, w: 0.7366965}
   _mirrorOffsetsForLeftHand: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1503423523
 GameObject:
   m_ObjectHideFlags: 0
@@ -20003,6 +20280,9 @@ Transform:
   m_Father: {fileID: 510417084}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1570436192
 GameObject:
   m_ObjectHideFlags: 0
@@ -20105,8 +20385,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 135349547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1576011388
 GameObject:
   m_ObjectHideFlags: 0
@@ -21086,6 +21369,9 @@ Transform:
   m_Father: {fileID: 126792869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1661903095
 GameObject:
   m_ObjectHideFlags: 0
@@ -21142,8 +21428,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1663956417
 GameObject:
   m_ObjectHideFlags: 0
@@ -23649,6 +23938,9 @@ MonoBehaviour:
   _gameObjects: []
   _monoBehaviours: []
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1882199696
 GameObject:
   m_ObjectHideFlags: 0
@@ -23696,8 +23988,11 @@ MonoBehaviour:
   _hmd: {fileID: 1423970763}
   _offset: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1889873902
 GameObject:
   m_ObjectHideFlags: 0
@@ -24081,9 +24376,13 @@ Transform:
   m_Children:
   - {fileID: 848655007}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1487856573}
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+  - {fileID: 1487856573}
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
   m_Father: {fileID: 1316160231}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1939309014
@@ -24370,6 +24669,9 @@ Transform:
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1949085320
 GameObject:
   m_ObjectHideFlags: 0
@@ -24472,8 +24774,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949085320}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1949913939
 GameObject:
   m_ObjectHideFlags: 0
@@ -24567,6 +24872,9 @@ SkinnedMeshRenderer:
     m_Extent: {x: 0.033926036, y: 0.042694185, z: 0.05639166}
   m_DirtyAABB: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1952134542
 GameObject:
   m_ObjectHideFlags: 0
@@ -24623,8 +24931,11 @@ MonoBehaviour:
   _fadeOut: 0
   _gradientLength: 0.85
   _glowType: 28
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1954162283
 GameObject:
   m_ObjectHideFlags: 0
@@ -24744,6 +25055,9 @@ Transform:
   m_Father: {fileID: 372980502}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1960686168
 GameObject:
   m_ObjectHideFlags: 0
@@ -24801,8 +25115,11 @@ MonoBehaviour:
     _minCutoff: 0.6
     _beta: 6
     _dCutoff: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1968029493
 GameObject:
   m_ObjectHideFlags: 0
@@ -24867,6 +25184,9 @@ Transform:
   m_Father: {fileID: 126792869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1978122089
 GameObject:
   m_ObjectHideFlags: 0
@@ -24913,8 +25233,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 135349549}
   _offset: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &1979309041
 GameObject:
   m_ObjectHideFlags: 0
@@ -25664,6 +25987,9 @@ Transform:
   m_Father: {fileID: 345559516}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &2035300041
 GameObject:
   m_ObjectHideFlags: 0
@@ -25697,8 +26023,11 @@ Transform:
   - {fileID: 1949085321}
   m_Father: {fileID: 1423970760}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &2036823596
 GameObject:
   m_ObjectHideFlags: 0
@@ -26332,6 +26661,9 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &2090738639
 GameObject:
   m_ObjectHideFlags: 0
@@ -26388,8 +26720,11 @@ MonoBehaviour:
   _fadeOut: 0
   _gradientLength: 0.85
   _glowType: 28
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
 --- !u!1 &2093206151
 GameObject:
   m_ObjectHideFlags: 0
@@ -27411,6 +27746,9 @@ SceneRoots:
   - {fileID: 655552110}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
   - {fileID: 606689827}
   - {fileID: 984345701}
   - {fileID: 617357598}
@@ -27419,8 +27757,11 @@ SceneRoots:
   - {fileID: 799733555}
   - {fileID: 1661903097}
   - {fileID: 1399654831}
+<<<<<<< HEAD
 =======
 >>>>>>> 135a879 ((AR): change texture for lamp1)
 =======
   - {fileID: 940311704}
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> cd12684 ((AR): all objects are now generated and have physics)
