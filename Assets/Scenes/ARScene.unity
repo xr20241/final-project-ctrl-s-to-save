@@ -12677,7 +12677,7 @@ PrefabInstance:
     - target: {fileID: 2296141232796561049, guid: cee191920b8eb41b0960b1082a393a3e, type: 3}
       propertyPath: MeshMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5456522116536683058, guid: cee191920b8eb41b0960b1082a393a3e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -13699,9 +13699,9 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   colorMapEditorContrast: 0
-  colorMapEditorBrightness: -0.2
+  colorMapEditorBrightness: -0.509
   colorMapEditorPosterize: 0
-  colorMapEditorSaturation: -0.1
+  colorMapEditorSaturation: -0.527
   _colorLutSourceTexture: {fileID: 0}
   _colorLutTargetTexture: {fileID: 0}
   _lutWeight: 1
@@ -13709,7 +13709,7 @@ MonoBehaviour:
   serializedSurfaceGeometry:
   - meshFilter: {fileID: 697464229}
     updateTransform: 1
-  textureOpacity_: 0.8
+  textureOpacity_: 0.5
   edgeRenderingEnabled_: 0
   edgeColor_: {r: 1, g: 1, b: 1, a: 1}
   colorMapType: 4
