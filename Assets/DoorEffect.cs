@@ -5,7 +5,6 @@ using UnityEngine;
 public class DoorEffect : MonoBehaviour
 {
     public Animator doorAnimator;
-    public Animator blueAnimator;
     public Material highlightMaterial;
     public Material defaultMaterial;
     public GameObject door;
