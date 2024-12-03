@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 533924613840553307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533924613840553307}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03eec0724add07a4c998bb93dd4b2f7a, type: 3}
   m_Name: 
@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 5349829057032174483}
   - component: {fileID: 6895687378938591015}
   - component: {fileID: 7352411062497576473}
+  - component: {fileID: 3894920031063027614}
   m_Layer: 0
   m_Name: '[BuildingBlock] DistanceHandGrab'
   m_TagString: Untagged
@@ -389,3 +390,16 @@ MonoBehaviour:
   _renderer: {fileID: 0}
   _customIcon: {fileID: 2800000, guid: aa3a2b3718100f84fb5d8ff9adb8ccb7, type: 3}
   _snappiness: 1
+--- !u!114 &3894920031063027614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714671307487325588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03eec0724add07a4c998bb93dd4b2f7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3714671307487325588}

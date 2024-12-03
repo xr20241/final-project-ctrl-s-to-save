@@ -3,6 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 !/Library/PackageCache/com.meta.xr.mrutilitykit@69.0.1/Core/Scripts/FindSpawnPositions.cs
+!/Library/PackageCache/com.meta.xr.mrutilitykit@69.0.1/Core/Scripts/EffectMesh.cs
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
