@@ -9530,6 +9530,9 @@ Transform:
   m_Father: {fileID: 1541956774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 04d8292 ((AR): assets cleaning)
 --- !u!95 &688029892
 Animator:
   serializedVersion: 5
@@ -9551,8 +9554,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< HEAD
 =======
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
+=======
+>>>>>>> 04d8292 ((AR): assets cleaning)
 --- !u!4 &688430911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5602775319806219822, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
@@ -9633,6 +9639,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &697464228
 PrefabInstance:
 >>>>>>> 064af35 ((AR): add music sheet with grab interaction (not tested))
@@ -9665,6 +9672,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1001169554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 04d8292 ((AR): assets cleaning)
 --- !u!1 &697508838
 GameObject:
   m_ObjectHideFlags: 0
