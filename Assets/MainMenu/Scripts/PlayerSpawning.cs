@@ -15,14 +15,15 @@ public class PlayerSpawning : MonoBehaviour {
     m_NetworkManager.StartServer();
     SceneManager.LoadScene(VRSceneName, LoadSceneMode.Additive);
     SceneManager.LoadScene(ARSceneName, LoadSceneMode.Additive);
-    // GetIDs();
+    // SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("MainMenu"));
+    //  GetIDs();
   }
 
   public void StartVR() {
     m_NetworkManager.StartClient();
     // VRClientID = NetworkManager.Singleton.LocalClientId;
     //  Get the current scene name
-    SceneManager.LoadScene(VRSceneName, LoadSceneMode.Additive);
+    SceneManager.LoadScene(VRSceneName, LoadSceneMode.Single);
     SceneManager.sceneLoaded += SetActiveVR;
 
     // SceneManager.UnloadSceneAsync(currentSceneName);
