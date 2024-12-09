@@ -13,7 +13,7 @@ public class NetworkFuseBox : NetworkBehaviour {
   [Rpc(SendTo.Server)]
   public void ASwitchSwitchedRpc() {
     if (IsServer) {
-      Debug.Log("AH AH");
+      Debug.Log("Switch RPC to Server");
       SceneManager.SetActiveScene(SceneManager.GetSceneByName(VRSceneName));
       var targetObject = GameObject.Find("Cube_B");
       targetObject.transform.localScale = Vector3.one * 2f;

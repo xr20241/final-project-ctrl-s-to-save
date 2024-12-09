@@ -22,12 +22,11 @@ public class PlayerSpawning : MonoBehaviour {
 
   public void StartServer() {
     m_NetworkManager.StartServer();
-    // SceneManager.LoadScene(VRSceneName, LoadSceneMode.Additive);
-    // SceneManager.LoadScene(ARSceneName, LoadSceneMode.Additive);
     NetworkManager.Singleton.OnClientConnectedCallback += HandleClientConnected;
     var allPrefabs = NetworkManager.Singleton.NetworkConfig.Prefabs.Prefabs;
-    Debug.Log(allPrefabs);
 
+    // Getting only the prefabs to spawn for their respective scene
+    // (Not the player objects)
     foreach (var prefab in allPrefabs) {
       if (prefab.Prefab.name.StartsWith("AR_")) {
         ARPrefabs.Add(prefab.Prefab);
@@ -35,102 +34,58 @@ public class PlayerSpawning : MonoBehaviour {
         VRPrefabs.Add(prefab.Prefab);
       }
     }
+
+    // And spawn them
     SceneManager.SetActiveScene(SceneManager.GetSceneByName(VRSceneName));
     foreach (var prefab in VRPrefabs) {
-
       var objInstance = Instantiate(prefab);
       objInstance.GetComponent<NetworkObject>().Spawn();
-      Debug.Log($"Found AR Prefab: {prefab.name}");
     }
     SceneManager.SetActiveScene(SceneManager.GetSceneByName(ARSceneName));
     foreach (var prefab in ARPrefabs) {
-
       var objInstance = Instantiate(prefab);
       objInstance.GetComponent<NetworkObject>().Spawn();
-      Debug.Log($"Found AR Prefab: {prefab.name}");
-    }
-
-    // SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("MainMenu"));
-    //  GetIDs();
-  }
-
-  void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-    if (scene.name == VRSceneName) {
-      SceneManager.SetActiveScene(SceneManager.GetSceneByName(VRSceneName));
-      foreach (var prefab in VRPrefabs) {
-
-        var objInstance = Instantiate(prefab);
-        objInstance.GetComponent<NetworkObject>().Spawn(false);
-        Debug.Log($"Found AR Prefab: {prefab.name}");
-      }
-
-    } else if (scene.name == ARSceneName) {
-      SceneManager.SetActiveScene(SceneManager.GetSceneByName(ARSceneName));
-      foreach (var prefab in ARPrefabs) {
-
-        var objInstance = Instantiate(prefab);
-        objInstance.GetComponent<NetworkObject>().Spawn(false);
-        Debug.Log($"Found AR Prefab: {prefab.name}");
-      }
     }
   }
 
   public void StartVR() {
     m_NetworkManager.StartClient();
-    // VRClientID = NetworkManager.Singleton.LocalClientId;
-    //  Get the current scene name
+    // Load the scene in Single mode to, hopefully, unload the other scene's
+    // objects locally
     SceneManager.LoadScene(VRSceneName, LoadSceneMode.Single);
-
-    // SceneManager.UnloadSceneAsync(currentSceneName);
   }
 
   public void StartAR() {
     m_NetworkManager.StartClient();
-    // ARClientID = NetworkManager.Singleton.LocalClientId;
-    //  Get the current scene name
+    // Load the scene in Single mode to, hopefully, unload the other scene's
+    // objects locally
     SceneManager.LoadScene(ARSceneName, LoadSceneMode.Single);
-    // SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
-    // SceneManager.sceneLoaded += SetActiveAR;
-
-    // SceneManager.UnloadSceneAsync(currentSceneName);
   }
 
   void SpawnPlayerObject(string scene, GameObject playerPrefab,
                          ulong clientId) {
     SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene));
-    Debug.Log("Server spawning");
-    Debug.Log(SceneManager.GetActiveScene().name);
-    Debug.Log(clientId);
     var objInstance = Instantiate(playerPrefab);
     objInstance.GetComponent<NetworkObject>().SpawnAsPlayerObject(clientId);
   }
 
   void HandleClientConnected(ulong clientId) {
-    // Only the server should spawn players
     if (!NetworkManager.Singleton.IsServer)
       return;
 
-    // Increment connected clients count
     connectedClientsCount++;
-
-    GameObject playerPrefab = null;
-    string targetSceneName = "";
 
     // Spawn different players based on connection order
     switch (connectedClientsCount) {
     case 2:
-      playerPrefab = ARPlayerPrefab;
-      targetSceneName = ARSceneName;
+      SpawnPlayerObject(ARSceneName, ARPlayerPrefab, clientId);
       break;
     case 1:
-      playerPrefab = VRPlayerPrefab;
-      targetSceneName = VRSceneName;
+      SpawnPlayerObject(VRSceneName, VRPlayerPrefab, clientId);
       break;
     default:
       Debug.Log("Maximum player limit reached or exceeded.");
       return;
     }
-
-    SpawnPlayerObject(targetSceneName, playerPrefab, clientId);
   }
 }
