@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - SamplesInfoPanel
+  - Environment 2
+  - APARBox
+  - Environment
+  - GasMask
+  - Interactable
   layers:
   - Default
   - TransparentFX
