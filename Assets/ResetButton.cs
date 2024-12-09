@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class ResetButton : MonoBehaviour
 {
-  public Material highlightMaterial;
-  public Material defaultMaterial;
   public  GameObject RButton;
    public AudioSource Buzzer;
 
@@ -38,18 +36,5 @@ public class ResetButton : MonoBehaviour
     {
       RButton.GetComponent<Renderer>().enabled = true;
     }
-  }
-  public void OnMouseDown()
-  {
-    KeysPlayed.Clear();
-  }
-  public void OnHoverEnter()
-  {
-    RButton.GetComponent<Renderer>().material = highlightMaterial;
-  }
-
-  public void OnHoverExit()
-  {
-     RButton.GetComponent<Renderer>().material = defaultMaterial;
   }
 }

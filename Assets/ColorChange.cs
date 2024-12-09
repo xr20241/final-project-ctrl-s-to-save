@@ -28,7 +28,8 @@ public class ColorChange : MonoBehaviour
     void Update()
     {
         Debug.Log("Update");
-        if (Input.GetKeyDown(KeyCode.JoystickButton0))
+        OVRInput.Update();
+        if (OVRInput.Get(OVRInput.Button.One))
         {
             lights.GetComponent<Light>().color = red;
             piano.SetActive(true);
@@ -36,7 +37,7 @@ public class ColorChange : MonoBehaviour
             equation.SetActive(false);
             Debug.Log("red");
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton1))
+        if (OVRInput.Get(OVRInput.Button.Two))
         {
             lights.GetComponent<Light>().color = green;
             piano.SetActive(false);
@@ -44,7 +45,7 @@ public class ColorChange : MonoBehaviour
             equation.SetActive(false);
             Debug.Log("green");
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton2))
+        if (OVRInput.Get(OVRInput.Button.Three))
         {
             lights.GetComponent<Light>().color = blue;
             piano.SetActive(false);
@@ -52,7 +53,7 @@ public class ColorChange : MonoBehaviour
             equation.SetActive(true);
             Debug.Log("blue");
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton3))
+        if (OVRInput.Get(OVRInput.Button.Four))
         {
             lights.GetComponent<Light>().color = white;
             piano.SetActive(false);
